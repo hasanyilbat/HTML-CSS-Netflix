@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(46, 44, 44);
+    color: white;
+    background: linear-gradient( rgba(20, 20, 20, .1), rgba(20,20,20, .1)),
+    url(./img/background_image.jpg);
+
+}
+
+.container{
+height: 100vh;
+margin: auto;
+/* border: 2px solid red; */
+display: flex;
+justify-content: center;
+}
+
+.content{
+    /* border: 2px solid green; */
+    width: 93%;
+    text-align: center;
+    margin: 30px 0 12px 0;
+    background-color: rgba(20, 20, 20, .5);
+    
+}
+
+.header{
+    margin:15px auto;
+}
+
+.form{
+    padding: 30px;
+    /* border: 2px solid blue; */
+    width: 30%;
+    margin: auto;
+    height: 84vh;
+    background-color: rgba(20, 20, 20, .7);
+    
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+.input-box label{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.choices {
+    display: flex;
+    margin-bottom: 3px;
+    
+}
+
+.info{
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.big-box{
+    margin-bottom: 20px;
+}
+
+.input-box input{
+    padding: 18px;
+}
+
+.input-box select{
+    padding: 8px;
+}
+
+.header h1{
+    margin-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
+font-size: 42px;
+letter-spacing: 7px;
+}
+.header p{
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: 900;
+
+}
+
+.comment{
+    resize: none;
+    width: 90%;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.submit input {
+    padding: 15px 60px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.red {
+    color: red;
+}
