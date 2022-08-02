@@ -31,7 +31,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]("./netflix.png")
 
 Netflix form structure was created in this project. Functional functions are not included. Only the style was created.
 
